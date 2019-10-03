@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Sign-Up Survey</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="col-1"></div>
+	<div class="container col-10">
+		<h1>Survey</h1>
+		<form>
+			<div class="form-group">
+				<label for="profile-name">Name</label>
+				<input type="text" class="form-control" id="profile-name" placeholder="Enter name">
+			</div>
+			<div class="form-group">
+				<label for="profile-pic">Photo URL</label>
+				<input type="text" class="form-control" id="profile-pic" placeholder="Enter photo URL">
+			</div>
+			<div class="form-group">
+				<label for="q1">Your mind is always buzzing with unexplored ideas and plans.</p>
+				<select class="form-control w-auto" name="q1" id="q1">
+					<option value="1">1 (strongly disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (strongly agree)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="q2">Generally speaking, you rely more on your experience than your imagination.</p>
+				<select class="form-control w-auto" name="q2" id="q2">
+					<option value="1">1 (strongly disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (strongly agree)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="q3">You find it easy to stay relaxed and focused even when there is some pressure.</p>
+				<select class="form-control w-auto" name="q3" id="q3">
+					<option value="1">1 (strongly disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (strongly agree)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="q4">You rarely do something just out of sheer curiosity.</p>
+				<select class="form-control w-auto" name="q4" id="q4">
+					<option value="1">1 (strongly disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (strongly agree)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="q5">People can rarely upset you.</p>
+				<select class="form-control w-auto" name="q5" id="q5">
+					<option value="1">1 (strongly disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (strongly agree)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="q6">It is often difficult for you to relate to other people’s feelings.</p>
+				<select class="form-control w-auto" name="q6" id="q6">
+					<option value="1">1 (strongly disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (strongly agree)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="q7">In a discussion, truth should be more important than people’s sensitivities.</p>
+				<select class="form-control w-auto" name="q7" id="q7">
+					<option value="1">1 (strongly disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (strongly agree)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="q8">You rarely get carried away by fantasies and ideas.</p>
+				<select class="form-control w-auto" name="q8" id="q8">
+					<option value="1">1 (strongly disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (strongly agree)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="q9">You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</p>
+				<select class="form-control w-auto" name="q9" id="q9">
+					<option value="1">1 (strongly disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (strongly agree)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="q10">You feel more energetic after spending time with a group of people.</label>
+				<select class="form-control w-auto" name="q10" id="q10">
+					<option value="1">1 (strongly disagree)</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5 (strongly agree)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<input type="submit" id="submit-button" class="btn btn-primary mb-2 btn-block" data-toggle="modal" data-target="#matchModal">
+			</div>
+
+			<!-- Bootstrap Modal for showing best match on submit -->
+			<div class="modal fade" id="matchModal" tabindex="-1" role="dialog" aria-labelledby="modalHeader" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="modalHeader">Best Match</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p id="bmName"></p>
+							<img src="" alt="Best Match Photo" id="bmPhoto" style="width: 100%">
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<br>
+		<footer class="footer">
+			<a href="./">Home Page</a> | 
+			<a href="./api/friends">API Profile List</a> | 
+			<a href="https://github.com/jsnwhited/Friend-Finder">Github Repo</a>
+		</footer>
+	</div>
+	<div class="col-1"></div>
+</body>
+</html>
+
+<script type="text/javascript">
+	$("#submit-button").on("click", function(event) {
+		event.preventDefault();
+		//save answers into object
+		var newProfile = {
+			name: $("#profile-name").val().trim(),
+			photo: $("#profile-pic").val().trim(),
+			scores: [
+				$("#q1").val(),
+				$("#q2").val(),
+				$("#q3").val(),
+				$("#q4").val(),
+				$("#q5").val(),
+				$("#q6").val(),
+				$("#q7").val(),
+				$("#q8").val(),
+				$("#q9").val(),
+				$("#q10").val()
+			]
+		};
+		console.log(newProfile);
+		
+		//POST request to API endpoint, sending newProfile object
+		$.post("/api/friends", newProfile, function(data) {
+			//data variable contains best-matched profile
+			//write name and image URL into Bootstrap Modal
+			$("#bmName").text(data.name);
+			$("#bmPhoto").attr("src", data.photo);
+		});
+	});
+</script>
