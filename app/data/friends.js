@@ -16,4 +16,3 @@ module.exports = [
 		]
 	}
 ];
-© 2019 GitHub, Inc.
